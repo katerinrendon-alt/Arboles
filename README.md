@@ -1,4 +1,3 @@
-# Arboles
 #  Proyecto Árbol Binario en Java
 
 ##  ¿Qué es un árbol binario?
@@ -25,23 +24,53 @@ El programa incluye un menú en consola con las siguientes opciones:
 
 ### Menú principal:
 
-### Insertar datos:
+📸 Captura sugerida:  
+![Menú principal](imagenes/menu.png)
+
+---
+
+### Insertar datos
+
 Ingresa el número a insertar: 50
 Ingresa el número a insertar: 30
 Ingresa el número a insertar: 70
 
-### Mostrar recorrido inorden:
+📸 Captura sugerida:  
+![Insertar números](imagenes/insertar.png)
+
+---
+
+### Mostrar recorrido inorden
+
 Recorrido inorden:
 30 50 70
 
-### Buscar un número:
+📸 Captura sugerida:  
+![Recorrido inorden](imagenes/inorden.png)
+
+---
+
+### Buscar un número
+
 Número a buscar: 70
 El número existe en el árbol
 Número a buscar: 90
 El número NO se encontró.
 
-### Salida:
+
+📸 Captura sugerida:  
+![Buscar número](imagenes/buscar.png)
+
+---
+
+### Salida
+
 saliendo...
+
+---
+
+📸 Captura sugerida:  
+![Salir del programa](imagenes/salida.png)
 
 ---
 
@@ -49,3 +78,23 @@ saliendo...
 📦 ArbolBinarioJava
 ┣ 📜 Main.java
 ┣ 📜 README.md
+┗ 📂 imagenes
+┣ 📜 menu.png
+┣ 📜 insertar.png
+┣ 📜 inorden.png
+┣ 📜 buscar.png
+┗ 📜 salida.png
+
+---
+
+## 👨‍💻 Integrantes del grupo
+- Nombre 1  
+Katerin Rendon  
+
+---
+
+## 🚀 Ejecución
+Compilar y ejecutar en consola:
+```bash
+javac Main.java
+java Main
